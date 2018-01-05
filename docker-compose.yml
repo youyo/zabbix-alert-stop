@@ -1,0 +1,11 @@
+version: "3"
+services:
+  database:
+    build: .
+    ports:
+      - 1323:1323
+    environment:
+      - PORT=1323
+      #- ZABBIX_USERNAME=
+      #- ZABBIX_PASSWORD=
+      #- ZABBIX_URL=
